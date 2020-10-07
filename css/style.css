@@ -1,69 +1,88 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     background-color: aqua;
 }
-.container{
+
+header {
+    padding-top: 10px;
+}
+
+.container {
     width: 100%;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .card {
     width: 33vw;
     height: 45vh;
-    background-color:coral;
+    background-color: coral;
     margin: 5% 1% 5% 1%;
-  }
+}
+
 nav {
-    display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     background-color: navy;
     height: 15vh;
-  }
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
-    flex-direction: row;
-    justify-content: space-between;
     padding-right: 4px;
     padding-left: 10px;
     color: white;
+    justify-content: space-between;
 }
-nav ul li a{
+
+nav ul li a {
     margin-right: 20px;
     text-decoration: none;
     color: white;
 }
-.botao-menu{
-border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+
+.botao-menu {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-.botao-cadastrar{
+
+.botao-cadastrar {
     background-color: #008CBA;
+    border-radius: 10px;
 }
-.botao-entrar{
+
+.botao-entrar {
     background-color: #4CAF50;
+    border-radius: 10px;
 }
-.rodape{
+
+.rodape {
     position: fixed;
     bottom: 0;
     height: 15%;
     width: 100%;
-    background-color:grey;
+    background-color: grey;
     color: white;
- }
- .formulario{
-     display: flex;
- }
+}
+
+.formulario {
+    display: flex;
+}
+
+.botao {
+    text-align: right;
+}
