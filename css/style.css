@@ -1,30 +1,109 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box;*/
 }
 
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 header {
     padding-top: 10px;
 }
 
-.container {
+
+/**/
+
+.container1 {
     width: 100%;
-    height: 60vh;
+    height: 45vh;
     display: flex;
+    /*flex-wrap: wrap;*/
+}
+
+.cardPricipal {
+    width: 30vw;
+    height: 15vh;
+    background-color: coral;
+    margin: 1% 1% 10% 1%;
+    margin-left: 1px;
+    flex-grow: 2;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+
+.cardA {
+    width: 40%;
+    height: 40vh;
+    background-color: coral;
+    margin-left: 1px;
+    padding-left: 1px;
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+.cardB {
+    width: 40%;
+    height: 40vh;
+    background-color: coral;
+    margin-left: 1px;
+    padding-left: 1px;
+    margin-top: 10px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.CAB {
+    width: 30vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**/
+
+.container2 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
+
+/*
 .card {
-    width: 33vw;
-    height: 45vh;
+    width: 10vw;
+    height: 30vh;
     background-color: coral;
-    margin: 5% 1% 5% 1%;
+    padding-top: 2px;
+    margin-top: 2px;
+    justify-content: space-between;
+}
+
+*/
+
+.Bloco2 {
+    display: flex;
+    padding-top: 20px;
+    margin: 0px;
+    width: 90vw;
+}
+
+p {
+    text-indent: 5px;
+    margin-top: 2px;
+    /*white-space: nowrap;*/
+}
+
+h4 {
+    text-indent: 5px;
+    margin-top: 1px;
+    margin-left: 0px;
+    white-space: nowrap;
 }
 
 nav {
@@ -33,6 +112,7 @@ nav {
     width: 100%;
     background-color: navy;
     height: 15vh;
+    border-radius: 0px 0px 10px 10px;
 }
 
 nav ul {
@@ -45,9 +125,8 @@ nav ul {
 }
 
 nav ul li a {
-    margin-right: 20px;
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .botao-menu {
@@ -70,15 +149,6 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.rodape {
-    position: fixed;
-    bottom: 0;
-    height: 15%;
-    width: 100%;
-    background-color: grey;
-    color: white;
-}
-
 .formulario {
     display: flex;
 }
@@ -86,3 +156,84 @@ nav ul li a {
 .botao {
     text-align: right;
 }
+
+
+/*....*/
+
+.footer {
+    background-color: rgb(39, 21, 141);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 2px;
+    page-break-after: auto;
+    height: 10%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.l1 {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+/**/
+
+.titulo1 {
+    padding-top: 50px;
+    margin: 5px;
+}
+
+.cardc {
+    justify-content: space-between;
+    width: 30vw;
+    padding: 10px;
+}
+
+
+/**/
+
+.rodape {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 1px;
+    padding-top: 3px;
+    height: 30px;
+    ;
+}
+
+.rodape1 {
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    text-align: center;
+    /**/
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.linksRodape {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    color: inherit;
+    margin-bottom: 0px;
+    margin-right: 2px;
+}
+
+.logoRodape {
+    border-radius: 50%;
+    width: 70px;
+    height: 59px;
+    padding-top: 0px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+/*....*/
