@@ -17,11 +17,13 @@
 	flex-wrap: wrap;
 }
 .container {
-   max-height: 80vh;
+   min-height: 80vh;
+   vertical-align: middle;
    justify-content: center;
-	max-width: 90vw;
+	min-width: 90vw;
 	margin: 0 auto;
-	border: 1px solid #ccc;
+   background-color: rgb(235, 228, 228);
+   border-radius: 5px;
 }
 .menu ul {
     list-style-type: none;
@@ -52,7 +54,7 @@
   font-size: 1em;
   flex: 1;
 }
-a:hover {
+.menu a:hover {
     background:rgba(10, 10, 182, 0.75);
  }
 nav ul li a{
@@ -77,22 +79,41 @@ nav ul li a{
    background-color: #f4f4f4;
  }
 .rodape{
-   position:relative;
+   position:fixed;
    bottom:0;
-   width:100%;
+   width:90%;
    height: 10vh;
    background-color: rgb(10, 10, 182);    
    color: white; 
 }
 .rodape ul li{
-
    list-style-type:none;
    display: inline;
-
-   text-decoration: none;
-   
+   text-decoration: none; 
 }
 .rodape a{
    color: white;
    margin: 2% 2% 10% 2%;
 }
+.formulario {
+   
+   list-style-type:none;
+}
+.formulario li{
+   margin-bottom: 5%;
+}
+.formulario li label{
+  padding: 8px;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.formulario li button {
+   
+   padding: 8px 16px;
+   border: none;
+   background: #333;
+   color: #f2f2f2;
+   text-transform: uppercase;
+   border-radius: 2px;
+ }
+
