@@ -10,34 +10,49 @@
 
 <body>
     <header>
-        
+        <h1>Faça seu cadastro!</h1>
     </header>
     <main>
-        <section class="container">
-        
-            <div class="formulario">
-                
-                    <label for="nomeUsuario">Nome Completo</label>
-                    <input  type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Digite seu nome completo">
-                
-                    <label for="telefoneUsuario">Telefone</label>
-                    <input  type="tel" id="telefoneUsuario" name="telefoneUsuario" placeholder="Digite seu telefone">
-                
-                    <label for="emailUsuario">Email</label>
-                    <input  type="email" id="emailUsuario" name="emailUsuario" placeholder="Digite seu email">
-                
-                    <label for="senhaUsuario">Senha</label>
-                    <input  type="password" id="senhaUsuario" name="senhaUsuario" placeholder="Digite sua senha">
-               
-                    <label for="confirmarSenhaUsuario">Confirme a Senha</label>
-                    <input  type="password" id="confirmarSenhaUsuario" name="confirmarSenhaUsuario" placeholder="Confirmar Senha">
-                
+        <section>
+            <div class="container flex-wrap flex formulario">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="nomeUsuario">Nome Completo</label>
+                            <input  type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Digite seu nome completo"> 
+                        </li>
+                        <li>
+                            <label for="telefoneUsuario">Telefone</label>
+                            <input  type="tel" id="telefoneUsuario" name="telefoneUsuario" placeholder="Digite seu telefone">
+                        </li>
+                        <li>
+                            <label for="emailUsuario">Email</label>
+                            <input  type="email" id="emailUsuario" name="emailUsuario" placeholder="Digite seu email">
+                        </li>
+                        <li>
+                            <label for="senhaUsuario">Senha</label>
+                            <input  type="password" id="senhaUsuario" name="senhaUsuario" placeholder="Digite sua senha">
+                        </li>
+                        <li>
+                            <label for="confirmarSenhaUsuario">Confirme a Senha</label>
+                            <input  type="password" id="confirmarSenhaUsuario" name="confirmarSenhaUsuario" placeholder="Confirmar Senha">
+                        </li>
+                        <li>
+                            <button type="submit">Submit</button>
+                          </li>
+                    </ul>
+                </form>       
             </div>
-            
         </section>
     </main>
-    <footer class="rodape">
-        
+    <footer>
+        <div class="rodape flex">
+           <ul>
+               <li><a class="linksRodape " href="# ">Fale conosco</a></li>
+               <li><a class="linksRodape " href="# ">Anuncie</a></li>
+               <li><a class="linksRodape " href="# ">Politica de privacidade</a></li>
+           </ul>
+        </div>
     </footer>
 </body> 
 </html> 
